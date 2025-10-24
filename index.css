@@ -1,0 +1,20 @@
+/* index.css */
+
+/* Tailwind CSS Directives */
+
+/* These three lines are critical. They are replaced by the Tailwind build process
+   with ALL the utility classes used in your JSX files. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Minimal Global Reset */
+/* This ensures the entire page (root document) uses the font-sans (Tailwind default) 
+   and prevents any unwanted browser margins/scrolls. */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    /* Note: The 'bg-gray-900' class in your main div handles the dark background, 
+       so no need to set a background here unless you want a global fallback. */
+}
