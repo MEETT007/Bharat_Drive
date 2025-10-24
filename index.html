@@ -4,16 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bharat Drive</title>
-    <!-- Tailwind CSS is typically loaded by the bundler in a real React environment, but we ensure the necessary container exists -->
 </head>
 <body>
-    <!-- The root element where the React application will be mounted -->
     <div id="root"></div>
     <!-- 
-        NOTE: In a real Vercel deployment of a production-ready React app (using Vite/CRA), 
-        the compiled JavaScript bundle (e.g., 'main.js') would be automatically 
-        linked here by the build process. We trust Vercel's React preset to find 
-        and compile the JSX/JS files.
+        Vite needs to be told exactly where the main application entry point is located.
+        We ensure it points directly to the root-level component file.
     -->
+    <script type="module" src="/CloudDrive.jsx"></script>
 </body>
 </html>
