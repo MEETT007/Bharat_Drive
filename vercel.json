@@ -4,5 +4,7 @@
       "source": "/(.*)",
       "destination": "/"
     }
-  ]
+  ],
+  "installCommand": "npm install",
+  "buildCommand": "npm run build"
 }
